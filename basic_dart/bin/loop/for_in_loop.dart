@@ -1,9 +1,11 @@
 void main() {
   var names = <String>['Ardhian', 'Calwa', 'Nugraha'];
 
-  // for (var i = 0; i < names.length; i++) {
-  //   print(names[i]);
+  // var total = 0;
+  // for (var i = 2; i < 1000000001; i+=3) {
+  //   total += i;
   // }
+  //   print(total);
 
   for (var value in names) {
     print(value);
